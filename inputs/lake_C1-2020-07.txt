@@ -1,0 +1,20 @@
+#Lake input file C1
+#file containing input properties of lake (over 1 year) low cdom low chla
+#
+#
+#Parameters --> explain parameters here (to be done) --> only changed epilimnion depth and surface area
+#
+#compType: type of compartment
+#surfaceArea_m2: surface area of the compartment in m2 (for lake, this will be equal for all compartments
+#depth_m: depth of the compartment in m
+#G: shear rate in 1/s. For sediment this should be 0
+#T_K: temperature of the compartment in Kelvin
+#add the specification for each paramenter
+#
+#smaller lake
+
+compType,surfArea_m2,depth_m,G,T_K
+surface,480000 ,0.005,5,295.36
+water,480000 ,7.5,5,295.36
+water,480000 ,2.5 ,1,280.66
+sediment,480000 , 0.0004,0,280.66

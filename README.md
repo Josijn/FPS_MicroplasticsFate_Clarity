@@ -1,2 +1,2 @@
-# FPS_MicroplasticsFate_Clarity
-This repository provides all the supplementary data used in the bachelor thesis 'the effect of water clarity on microplastic fate'
+# MP-Lake-Model
+model to assess the fate and transport of microplastics (MPs) in a lake environment. Project: Nano2Plast

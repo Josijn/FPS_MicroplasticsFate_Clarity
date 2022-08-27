@@ -1,0 +1,19 @@
+#Microplastics input file
+#file containing input properties of microplastics to be modelled
+#
+#  FOR PA
+#Parameters 
+#
+#ID: internal number/label
+#name: name to be used in outputs
+#composition: polymer type (e.g. PE for polyethylene) or type of SPM/natural colloid (e.g. clay)
+#density_kg_m3: density of parent (original) particle in kg/m3
+#MPshape: particle shape (sphere, fibre, flake, film, cylinder, ...). Note: only sphere is implemented well throughout the code, for other shape check processes
+#diamter_um: (median) diameter in micrometers (for spherical particles)
+#length_a_um, length_b_um, length_c_um: individual dimensions in micrometer (for non-spherical particles. For sphere should be left as 0
+#
+ID,name,composition,density_kg_m3,MPshape,diameter_um,length_a_um,length_b_um,length_c_um
+1,MP1,PA,999,sphere,100,0,0,0
+2,MP2,PP,850,fibre,0.1,10,0,0
+3,MP3,PS,1080,sphere,0.3,0,0,0
+4,SPM1,mixed,2000,sphere,0.5,0,0,0
