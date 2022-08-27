@@ -1,0 +1,22 @@
+#input file containing process information for given MPs
+#file containing data to parameterise different rate processes in different compartments
+#
+#
+#Parameters 
+#
+#ID: label of lake compartment (4 in current version)
+#compartment: name of compartment (i.e. compartment type). Process information specific to compartment)
+#alpha_A: heteroaggregation attachment efficieny for pristine MPs (value between 0 and 1, unitless)
+#alpha_C: heteroaggregation attachment efficieny for biofouled MPs (value between 0 and 1, unitless)
+#t_half_d_A, t_half_d_B, t_half_d_C, t_half_d_D: half-life time for complete degradation of MP forms A to D (unit: days)
+#k_frag_d_A, k_frag_d_B,k_frag_d_C,k_frag_d_D: fragmentation rate constant for MP forms A to D (unit: 1/days)
+#t_biof_growth_d: time for biofilm growth of a defined thickness (unit: days)
+#
+#
+ID,compartment,alpha_A,alpha_C,t_half_d_A,t_half_d_B,t_half_d_C,t_half_d_D,k_frag_d_A,k_frag_d_B,k_frag_d_C,k_frag_d_D,t_biof_growth_d
+1,surface,0.01,0.01,5000,50000,25000,100000,0.0274,0,0.0137,0,37
+2,epilimnion,0.01,0.01,5000,50000,25000,100000,0.00274,0,0.00137,0,37
+3,mixed_layer,0.01,0.01,5000,50000,25000,100000,0.00274,0,0.00137,0,223
+3,hypolimnion,0.01,0.01,5000,50000,25000,100000,0.00274,0,0.00137,0,223
+4,sediment,0.01,0.01,5000,50000,25000,100000,0.00274,0,0.00137,0,0
+
